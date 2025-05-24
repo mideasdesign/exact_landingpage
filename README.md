@@ -1,62 +1,62 @@
-# [Start Bootstrap - Landing Page](https://startbootstrap.com/template-overviews/landing-page/)
 
-[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+# exact_landingpage
 
-## Preview
+Dies Landingpage habe ich für die Firma SinkaCom gestaltet und entwickelt. Die Seite dient als zentrale Anlaufstelle für verschiedene Zielgruppen und bietet spezifische Anmeldeformulare für unterschiedliche Branchen.
 
-[![Landing Page Preview](https://startbootstrap.com/assets/img/templates/landing-page.jpg)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
+## 📄 Projektübersicht
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-landing-page/)**
+Die Landingpage wurde mit dem Ziel erstellt, potenziellen Kunden einen klaren und einfachen Einstiegspunkt zu bieten. Durch die Bereitstellung branchenspezifischer Anmeldeformulare wird eine zielgerichtete Ansprache ermöglicht.
 
-## Status
+## 🚀 Technologien & Tools
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-landing-page/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-landing-page.svg)](https://www.npmjs.com/package/startbootstrap-landing-page)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page?type=dev)
+- **HTML5** & **CSS3**
+- **JavaScript**
+- **PHP** (für Formularverarbeitung)
+- **Bootstrap**
+- **Gulp.js** (Build-Tool)
 
-## Download and Installation
+## 📁 Projektstruktur
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/landing-page/)
-* Install via npm: `npm i startbootstrap-landing-page`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-landing-page.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-landing-page)
+```plaintext
+├── assets/                   # Statische Ressourcen (Bilder, CSS, JS)
+├── index.html                # Hauptseite der Landingpage
+├── signup_accounting.html    # Anmeldeformular für Buchhaltung
+├── signup_manufacturing.html # Anmeldeformular für Produktion
+├── signup_projectmanagement.html # Anmeldeformular für Projektmanagement
+├── signup_time_billing.html  # Anmeldeformular für Zeiterfassung & Abrechnung
+├── signup_wholesaler.html    # Anmeldeformular für Großhandel
+├── mail.php                  # PHP-Skript zur Verarbeitung der Formulare
+├── gulpfile.js               # Gulp-Konfigurationsdatei
+├── package.json              # Projektabhängigkeiten
+├── LICENSE                   # Lizenzinformationen (MIT)
+└── README.md                 # Projektbeschreibung
+```
 
-## Usage
+## 📦 Installation & Entwicklung
 
-### Basic Usage
+1. Repository klonen:
+   ```bash
+   git clone https://github.com/mideasdesign/exact_landingpage.git
+   ```
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+2. Abhängigkeiten installieren:
+   ```bash
+   npm install
+   ```
 
-### Advanced Usage
+3. Entwicklungsumgebung starten:
+   ```bash
+   gulp
+   ```
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+## 📬 Formularverarbeitung
 
-## Bugs and Issues
+Die Anmeldeformulare senden die eingegebenen Daten an das `mail.php`-Skript, das für die Verarbeitung und den Versand der Informationen zuständig ist. Stelle sicher, dass dein Server PHP unterstützt und entsprechend konfiguriert ist.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-landing-page/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/).
+## 📄 Lizenz
 
-## Custom Builds
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+## 🤝 Mitwirken
 
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
+Beiträge, Vorschläge und Feedback sind herzlich willkommen! Bitte öffne ein Issue oder einen Pull Request, um zur Weiterentwicklung dieses Projekts beizutragen.
